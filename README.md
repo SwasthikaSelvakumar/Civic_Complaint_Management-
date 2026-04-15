@@ -1,95 +1,82 @@
-🚀 Smart Civic Complaint Management System
+Smart Civic Complaint Management System
 with Federated Learning-Based Severity Analysis
+Overview
 
-📌 Overview
-The Smart Civic Complaint Management System is a web-based platform that enables citizens to report civic issues efficiently. It integrates Artificial Intelligence with Federated Learning to automatically analyze complaint images and determine severity while preserving user data privacy.
+The Smart Civic Complaint Management System is a web-based platform that allows citizens to report civic issues such as potholes, garbage, water leakage, and streetlight failures. The system uses Artificial Intelligence with Federated Learning to automatically analyze complaint images and determine severity while preserving user data privacy.
 
-🎯 Features
-📝 Complaint submission with image and location
+Features
+Complaint submission with image and location
+AI-based severity detection (Low, Medium, High, Critical)
+Federated Learning for privacy-preserving model updates
+Real-time complaint tracking
+Admin/Officer dashboard for complaint management
+Status updates and complaint history
+Tech Stack
 
-🤖 AI-based severity detection (Low, Medium, High, Critical)
-
-🔐 Privacy-preserving Federated Learning
-
-📊 Admin dashboard for monitoring complaints
-
-🔄 Real-time complaint tracking
-
-🧾 Status updates and officer notes
-
-🏗️ Tech Stack
 Frontend: React, HTML, CSS, JavaScript
 Backend: Flask (Python)
 Database: SQLite / Firebase
-AI Model: CNN + Federated Learning
-Tools: OpenCV, TensorFlow/PyTorch
+AI Model: CNN with Federated Learning
+Libraries/Tools: OpenCV, TensorFlow / PyTorch
 
-⚙️ System Architecture
-Frontend: User interface for citizens and admins
+System Architecture
+Frontend handles user interaction and UI
+Backend manages APIs, business logic, and AI integration
+Database stores complaints, users, and status updates
+AI Module analyzes images and predicts severity
+Workflow
+User registers or logs into the system
+User submits a complaint with image and details
+AI model analyzes the image and assigns severity
+Complaint is stored in the database
+Admin/Officer reviews and updates complaint status
+User tracks complaint progress
+Project Structure
 
-Backend: Handles APIs, logic, and AI integration
+frontend/ → React application
+backend/ → Flask server and APIs
+models/ → AI model files
+database/ → Database configuration
+assets/ → Images and static resources
 
-Database: Stores complaints and user data
+Installation
+Clone Repository
 
-AI Module: Performs severity prediction
-
-🔄 Workflow
-User registers/login
-
-Submits complaint with image
-
-AI analyzes image and assigns severity
-
-Complaint stored in database
-
-Admin reviews and updates status
-
-User tracks progress
-
-📂 Project Structure
-/frontend     → React UI  
-/backend      → Flask APIs  
-/models       → AI model files  
-/database     → SQLite/Firebase config  
-/assets       → Images & static files  
-🚀 Installation
-1. Clone the repository
 git clone https://github.com/your-username/civic-complaint-system.git
+
 cd civic-complaint-system
-2. Backend Setup
+
+Backend Setup
+
 cd backend
 pip install -r requirements.txt
 python app.py
-3. Frontend Setup
+
+Frontend Setup
+
 cd frontend
 npm install
 npm start
-🔐 Key Highlights
-Automated complaint prioritization using AI
 
-Enhanced privacy with Federated Learning
+Key Highlights
+Intelligent complaint prioritization using AI
+Privacy-preserving learning using Federated Learning
+Scalable and efficient system design
+User-friendly interface for citizens and administrators
+Future Enhancements
+Mobile application support
+GPS-based automatic location detection
+Email/SMS notifications
+Map-based complaint visualization
+Improved AI model accuracy
+Contribution
 
-Scalable and efficient complaint handling system
+Contributions are welcome. Feel free to fork the repository and submit pull requests.
 
-User-friendly and responsive interface
+License
 
-📈 Future Enhancements
-📱 Mobile application
-
-🌍 GPS-based auto location detection
-
-🔔 SMS/Email notifications
-
-🗺️ Map-based complaint visualization
-
-🧠 Improved AI model accuracy
-
-🤝 Contribution
-Contributions are welcome! Feel free to fork the repo and submit pull requests.
-
-📜 License
 This project is developed for academic purposes.
 
-👩‍💻 Author
-Swasthika S
+Author
 
+Swasthika S
